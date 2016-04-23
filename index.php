@@ -1,3 +1,3 @@
 <?php
 
-echo "Here my friend" . PHP_EOL;
+echo‌‌ "Here‌‌ my‌‌ friend"‌‌ .‌‌ ‌‌PHP_EOL;
