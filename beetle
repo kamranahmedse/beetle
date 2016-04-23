@@ -52,6 +52,10 @@ if [[ $ACTION = "sting" ]] ; then
     cure_file $FILE
     sting_file $FILE
 
+    echo "Successfuly stinged '$FILE'"
+
 elif [[ $ACTION = "cure" ]]; then
     cure_file $FILE
+
+    echo "Sting has been cured '$FILE'"
 fi
