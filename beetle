@@ -29,13 +29,13 @@ validate_input () {
 ## Applies the sting on file i.e replaces the spaces
 ## available in file with invisible char
 sting_file () {
-    sed -i -e "s/$SPACE_CHAR/$INVISIBLE_CHAR/g" $1
+    sed -i '' "s/$SPACE_CHAR/$INVISIBLE_CHAR/g" $1
 }
 
 ## Fixes the file i.e. replaces the invisible 
 ## char back to spaces
 cure_file () {
-    sed -i -e "s/$INVISIBLE_CHAR/$SPACE_CHAR/g" $1
+    sed -i '' "s/$INVISIBLE_CHAR/$SPACE_CHAR/g" $1
 }
 
 
