@@ -1,8 +1,6 @@
 # Beetle
 
-> Pull a prank on your co-workers, sting their code and let them pull their hair out
-
-Beetle is a little bash utility that let's you *sting* some piece of source code and make it stop working. While **you won't see any changes in code**, you will get errors when running it.
+> Beetle is a little bash utility that let's you *sting* some piece of source code and make it stop working. While **you won't see any changes in code**, you will get errors when running it.
 
 ## How does it work?
 
