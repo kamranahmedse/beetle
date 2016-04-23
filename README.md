@@ -1,6 +1,8 @@
 # Beetle
 
-> Beetle is a little utility that let's you *sting* some piece of source code and make it stop working. While **you won't see any changes in code**, you will get errors when running it.
+> You won't see any changes in the stinged code but you will get errors when running it
+
+Beetle is a little utility that let's you *sting* some piece of source code and make it stop working. While **you won't see any changes in code**, you will get errors when running it.
 
 Of-course, Beetle is language agnostic and you can use it to pull a prank on anyone no matter what language they code in.
 
@@ -44,6 +46,9 @@ $ beetle cure Controller.php
 ```
 
 ![Curing a file](http://i.imgur.com/lKDMSAU.gif)
+
+## Disclaimer
+It is just a quick, fun little project that I developed; and I won't advise you to use it on someone.
 
 ## License
 
