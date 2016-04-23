@@ -4,7 +4,7 @@
 
 Beetle is a little utility that let's you *sting* some piece of source code and make it stop working. While **you won't see any changes in code**, you will get errors when running it.
 
-Of-course, Beetle is language agnostic and you can use it to pull a prank on anyone no matter what language they code in.
+Of-course, Beetle is language agnostic and you can use it on any source-code file no matter what the language is.
 
 ## Install
 
