@@ -1,6 +1,6 @@
-# Beetle
+# 🐞 Beetle
 
-> You won't see any changes in the stinged code but you will get errors when running it
+> You won't see any changes in the stinged code file but you will get errors when running it
 
 Beetle is a little utility that let's you *sting* some piece of source code and make it stop working. While **you won't see any changes in code**, you will get errors when running it.
 
