@@ -10,7 +10,7 @@ shopt -s nocasematch
 
 
 SPACE_CHAR=' '
-INVISIBLE_CHAR='‌‌ '
+INVISIBLE_CHAR='‌‌'
 
 ## Validates the input
 validate_input () {
@@ -46,12 +46,7 @@ FILE=$2
 validate_input $ACTION $FILE
 
 if [[ $ACTION = "prank" ]] ; then
-
-    # Pranking the same file twice won't work
-    # So fix it before applying the prank
-    fix_file $FILE
     prank_file $FILE
-
 elif [[ $ACTION = "fix" ]]; then
     fix_file $FILE
 fi
