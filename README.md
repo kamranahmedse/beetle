@@ -1,6 +1,6 @@
 # Beetle
 
-> Beetle is a little bash utility that let's you *sting* some piece of source code and make it stop working. While **you won't see any changes in code**, you will get errors when running it.
+> Beetle is a little utility that let's you *sting* some piece of source code and make it stop working. While **you won't see any changes in code**, you will get errors when running it.
 
 ## How does it work?
 
