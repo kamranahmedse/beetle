@@ -4,7 +4,7 @@
 
 ## How does it work?
 
-It simply replaces the space character with an invisible character so when you will open the file, you won't see any changes but the code won't work actually because of some syntax errors due to those invisible characters.
+It simply puts an invisible character besides each space character so when you will open the file, you won't see any changes but the code won't work actually because of some syntax errors due to those invisible characters.
 
 Of-course, Beetle is language agnostic and you can use it to pull a prank on anyone no matter what language they code in.
 
