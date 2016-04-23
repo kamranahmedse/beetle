@@ -1,12 +1,16 @@
 #!/usr/bin/env bash
 
-if [[ $# -ne 2 ]] ; then
+if [[ $# != 2 ]] ; then
     >&2 echo -e "Usage: $0 <action> <sourcecode-file>\nPrank Example: $0 prank controller.js\nFix Example: $0 fix controller.js"
     exit 1
 fi
 
 ## Case in-sensitive comparison
 shopt -s nocasematch
+
+
+SPACE_CHAR=' '
+INVISIBLE_CHAR='‌‌ '
 
 ## Validates the input
 validate_input () {
@@ -22,20 +26,32 @@ validate_input () {
     fi
 }
 
+## Applies the prank on file i.e replaces the spaces
+## available in file with invisible char
+prank_file () {
+    sed -i -e "s/$SPACE_CHAR/$INVISIBLE_CHAR/g" $1
+}
+
+## Fixes the file i.e. replaces the invisible 
+## char back to spaces
+fix_file () {
+    sed -i -e "s/$INVISIBLE_CHAR/$SPACE_CHAR/g" $1
+}
+
 
 ACTION=$1
 FILE=$2
-
-SPACE_CHAR=' '
-INVISIBLE_CHAR='‌‌ '
 
 
 validate_input $ACTION $FILE
 
 if [[ $ACTION = "prank" ]] ; then
-    sed -i -e "s/$SPACE_CHAR/$INVISIBLE_CHAR/g" $FILE
+
+    # Pranking the same file twice won't work
+    # So fix it before applying the prank
+    fix_file $FILE
+    prank_file $FILE
+
 elif [[ $ACTION = "fix" ]]; then
-    sed -i -e "s/$INVISIBLE_CHAR/$SPACE_CHAR/g" $FILE
+    fix_file $FILE
 fi
-
-
