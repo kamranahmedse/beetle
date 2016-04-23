@@ -41,11 +41,15 @@ Make any piece of code to stop working by
 $ beetle sting Controller.php
 ```
 
+![Stinging a file](http://i.imgur.com/axqYLGY.gif)
+
 ## Curing the stinged file
 
 ```bash
 $ beetle cure Controller.php
 ```
+
+![Curing a file](http://i.imgur.com/lKDMSAU.gif)
 
 ## License
 
