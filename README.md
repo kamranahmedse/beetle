@@ -30,7 +30,7 @@ $ sudo make install
 ## Usage
 
 ```
-$ beetle <sting|cure> <sourcecode-file>
+$ beetle <sting|cure> <sourcecode-filepath>
 ```
 
 ## Stinging a file
