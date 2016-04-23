@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+FILE=index.php
+SPACE_CHAR=' ';
+REPLACE_WITH='‌‌ ';
+
+## Prank it
+# sed -i -e "s/$SPACE_CHAR/$REPLACE_WITH/g" $FILE
+
+## Fix it
+sed -i -e "s/$REPLACE_WITH/$SPACE_CHAR/g" $FILE
