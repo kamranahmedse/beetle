@@ -48,7 +48,7 @@ $ beetle cure Controller.php
 ![Curing a file](http://i.imgur.com/lKDMSAU.gif)
 
 ## Disclaimer
-It is just a quick, fun little project that I developed; and I won't advise you to use it on someone.
+Use at your own discretion
 
 ## License
 
