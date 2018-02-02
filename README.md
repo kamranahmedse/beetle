@@ -46,6 +46,16 @@ Restore to original state
 $ beetle cure user.controller.js
 ```
 
+## Example
+
+> Original file
+
+![](https://i.imgur.com/XpdPamr.png)
+
+> Stung file `beetle sting forgot-password.component.ts`
+
+![](https://i.imgur.com/zMtq0o5.png)
+
 ## License
 
 MIT © [Kamran Ahmed](http://kamranahmed.info)
