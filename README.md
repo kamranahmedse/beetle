@@ -1,11 +1,11 @@
 # beetle
 
-> *[ab]using Unicode to incite mayhem
+<img alt="monster" align="right" width="200"
+     src="https://i.imgur.com/7yyn7b3.jpg" />
+
+> Abusing Unicode to incite mayhem
 
 ### Introduction
-
-<img alt="monster" align="right"
-     src="https://i.imgur.com/SinbUi4.jpg" />
 
 Beetle replaces the space character with an invisible space. You won't see any changes in code but you will get errors when trying to run it.
 
