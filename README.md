@@ -1,10 +1,19 @@
-# 🐞 Beetle
+# beetle
 
-> Break some code without any visible changes
+> *[ab]using Unicode to incite mayhem
 
-Beetle is a little utility that let's you *sting* some piece of source code and make it stop working. While **you won't see any changes in code**, you will get errors when running it.
+### Introduction
 
-Of-course, Beetle is language agnostic and you can use it on any source-code file no matter what the language is.
+<img alt="monster" align="right"
+     src="https://i.imgur.com/SinbUi4.jpg" />
+
+Beetle replaces the space character with an invisible space. You won't see any changes in code but you will get errors when trying to run it.
+
+Fun games to play with beetle:
+
+- Teach someone an encoding lesson
+- Prank your colleagues
+- Get fired?!
 
 ## Install
 
@@ -22,30 +31,20 @@ $ cd beetle
 $ sudo make install
 ```
 
-
 ## Usage
 
-```
-$ beetle <sting|cure> <sourcecode-filepath>
-```
+You can either `sting` any file which will make it stop working or revert the changes using `cure` command. 
 
-## Stinging a file
-
-Make any piece of code to stop working by
+Make it not work
 
 ```bash
-$ beetle sting Controller.php
+$ beetle sting user.controller.js
 ```
-
-![Stinging a file](http://i.imgur.com/axqYLGY.gif)
-
-## Curing the stung file
+Restore to original state
 
 ```bash
-$ beetle cure Controller.php
+$ beetle cure user.controller.js
 ```
-
-![Curing a file](http://i.imgur.com/lKDMSAU.gif)
 
 ## Disclaimer
 Use at your own discretion
