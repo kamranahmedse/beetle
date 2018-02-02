@@ -1,13 +1,13 @@
 # beetle
 
-<img alt="monster" align="right" width="200"
-     src="https://i.imgur.com/7yyn7b3.jpg" />
-
 > Abusing Unicode to incite mayhem
 
 ### Introduction
 
-Beetle replaces the space character with an invisible space. You won't see any changes in code but you will get errors when trying to run it.
+<img alt="monster" align="right" width="200"
+     src="https://i.imgur.com/7yyn7b3.jpg" />
+     
+Beetle replaces the space character with an invisible unicode character. You won't see any changes in code but you will get errors when trying to run it.
 
 Fun games to play with beetle:
 
@@ -45,9 +45,6 @@ Restore to original state
 ```bash
 $ beetle cure user.controller.js
 ```
-
-## Disclaimer
-Use at your own discretion
 
 ## License
 
