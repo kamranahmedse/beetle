@@ -4,7 +4,7 @@
 
 ### Introduction
 
-<img alt="monster" align="right" width="200"
+<img alt="beetle" align="right" width="200"
      src="https://i.imgur.com/7yyn7b3.jpg" />
      
 It replaces the space character with an invisible unicode character in your source code. You won't see any changes in code but you will get errors when trying to run it.
@@ -48,13 +48,13 @@ $ beetle cure user.controller.js
 
 ## Example
 
-> Original file
+> Original file – without any errors/squiggly lines
 
-![](https://i.imgur.com/XpdPamr.png)
+<img alt="normal file" align="right" height="500" src="https://i.imgur.com/XpdPamr.png" />
 
 > Stung file `beetle sting forgot-password.component.ts`
 
-![](https://i.imgur.com/zMtq0o5.png)
+<img alt="stung file" align="right" height="500" src="https://i.imgur.com/zMtq0o5.png" />
 
 ## License
 
