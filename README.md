@@ -50,11 +50,11 @@ $ beetle cure user.controller.js
 
 > Original file – without any errors/squiggly lines
 
-<img alt="normal file" align="right" height="500" src="https://i.imgur.com/XpdPamr.png" />
+<img alt="normal file" height="500" src="https://i.imgur.com/XpdPamr.png" />
 
 > Stung file `beetle sting forgot-password.component.ts`
 
-<img alt="stung file" align="right" height="500" src="https://i.imgur.com/zMtq0o5.png" />
+<img alt="stung file" height="500" src="https://i.imgur.com/zMtq0o5.png" />
 
 ## License
 
