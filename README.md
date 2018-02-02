@@ -7,9 +7,7 @@
 <img alt="monster" align="right" width="200"
      src="https://i.imgur.com/7yyn7b3.jpg" />
      
-Beetle abuses the unicode to make some code to stop working.
-
-It replaces the space character with an invisible unicode character. You won't see any changes in code but you will get errors when trying to run it.
+It replaces the space character with an invisible unicode character in your source code. You won't see any changes in code but you will get errors when trying to run it.
 
 Fun games to play with beetle:
 
